@@ -1,0 +1,43 @@
+@use '../abstracts/' as *;
+
+.hero {
+    background: #1f2937;
+
+    &__content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 3.6rem;
+
+        & > * {
+            flex: 1 25rem;
+
+            &:nth-child(1) {
+                height: 20rem;
+            }
+
+            &:nth-child(2) {
+                height: 20rem;
+            }
+        }
+    }
+}
+
+.hero__title {
+    font-size: 4.8rem;
+    font-weight: 900;
+    color: #f9faf8;
+    margin-bottom: 1.6rem;
+}
+
+.hero__paragraph {
+    font-size: 1.8rem;
+    color: #e5e7eb;
+    margin-bottom: 1.6rem;
+}
+
+.hero__btn {
+    font-size: 1.8rem;
+    color: #e5e7eb;
+}

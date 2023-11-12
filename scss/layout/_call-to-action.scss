@@ -1,0 +1,12 @@
+@use '../abstracts/' as *;
+
+.call-to-action {
+    color: white;
+
+    & > * {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+    }
+}

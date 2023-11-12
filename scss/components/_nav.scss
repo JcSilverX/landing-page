@@ -1,0 +1,18 @@
+@use '../abstracts/' as *;
+
+.nav {
+    margin-left: auto;
+
+    &__list {
+        display: flex;
+        gap: 1.6rem;
+    }
+
+    &__item {
+
+    }
+
+    &__link {
+
+    }
+}

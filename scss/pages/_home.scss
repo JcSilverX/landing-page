@@ -1,0 +1,30 @@
+@use '../abstracts/' as *;
+
+.home {
+    display: grid;
+    grid-template-rows: calc(100vh - 3.2rem) repeat(3, 1fr);
+    grid-template-areas:
+        "hero"
+        "information"
+        "quote"
+        "call-to-action";
+}
+
+.hero {
+    grid-area: hero;
+    margin-bottom: 3.2rem;
+}
+
+.information {
+    grid-area: information;
+    margin-bottom: 3.2rem;
+}
+
+.quote {
+    grid-area: quote;
+    margin-bottom: 3.2rem;
+}
+
+.call-to-action {
+    grid-area: call-to-action;
+}

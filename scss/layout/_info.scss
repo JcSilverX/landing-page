@@ -1,0 +1,18 @@
+@use '../abstracts/' as *;
+
+.information {
+    padding: 0 1.6rem;
+
+    & > * {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 1rem;
+        height: 100%;
+    }
+}
+
+.information__title {
+    text-align: center;
+    margin-bottom: 1.6rem;
+}

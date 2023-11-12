@@ -1,0 +1,25 @@
+@use '../abstracts/' as *;
+
+.quote {
+    background: #e5e7eb;
+
+    & > * {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+}
+
+.quote__paragraph {
+    font-size: 3.6rem;
+    font-weight: 200;
+    color: #1f2937;
+}
+
+.quote__author {
+    margin-left: auto;
+    color: #1f2937;
+    font-weight: 900;
+}
